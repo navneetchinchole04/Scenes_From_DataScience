@@ -1,26 +1,11 @@
-# 🎬 Scenes From Data Science
+# 🕷️ Scene 1: The Hunter
 
-Welcome to a curated collection of Python experiments — each one a scene in the unfolding drama of data, logic, and creativity. This repository documents foundational lab work from F.Y. B.Tech (ECO), reimagined as narrative-driven explorations in web crawling, machine learning, and data visualization.
+## 🎯 Objective
+To crawl a webpage and extract all hyperlinks using BeautifulSoup, Requests, and lxml.
 
-## 🧠 Concept
+## 🧠 Theory
+Web crawling is the art of digital pursuit — sending HTTP requests, parsing HTML, and harvesting data. It’s the backbone of search engines, scrapers, and data miners.
 
-This isn’t just a lab manual. It’s a portfolio of transformation — where simple code becomes story, and every experiment is a character in your technical evolution.
-
-## 🎭 Experiments
-
-| Scene | Title | Description |
-|-------|-------|-------------|
-| **04** | 🕷️ *The Hunter* | Web crawling using BeautifulSoup, Requests, and lxml — a digital predator unleashed. |
-| **05** | ⚡ *The Spark* | TensorFlow multiplication of constants — the ignition of machine learning. |
-| **06** | 🧠 *The Awakening* | TensorFlow sessions and graphs — where computation comes alive. |
-| **07** | 🎨 *The Artist* | Seaborn visualizations — painting data with elegance and precision. |
-| **08** | 🪄 *The Illusionist* | Bokeh interactive plots — turning raw data into visual magic.
-
-Each experiment lives in its own folder, complete with code, theory, and a README that dramatizes its purpose.
-
-## 🧰 Requirements
-
-To run the experiments, install the following packages:
-
+## 🧪 Requirements
 ```bash
-pip install beautifulsoup4 requests lxml tensorflow seaborn bokeh
+pip install -r requirements.txt
